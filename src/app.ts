@@ -15,7 +15,7 @@ console.log('서버 초기화 시작...');
 
 // CORS 설정
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://sbon-system-frontend.pages.dev'],
+  origin: ['http://localhost:3000', 'https://web-sbon-system-frontend-mbhiy4va1af0e6e0.sel4.cloudtype.app/'],
   credentials: true
 }));
 app.use(express.json());

@@ -16,9 +16,9 @@ router.post('/login', (req, res, next) => {
 }, getStudentByPhone);
 
 // 학생 이름 조회 API
-router.get('/student/name/:phone', (req, res, next) => {
+router.get('/name/:phone', (req, res, next) => {
   console.log('=================================');
-  console.log('auth 라우터: /student/name/:phone 요청 들어옴');
+  console.log('auth 라우터: /name/:phone 요청 들어옴');
   console.log('요청 메소드:', req.method);
   console.log('요청 URL:', req.url);
   console.log('요청 파라미터:', req.params);

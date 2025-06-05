@@ -55,7 +55,7 @@ export const sendSMS = async (content: string) => {
     content: content,
     messages: [
       {
-        to: "01024002492",
+        to: "01022656886",
       },
     ],
   };
